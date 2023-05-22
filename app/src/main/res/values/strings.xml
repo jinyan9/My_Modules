@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">My Modules</string>
-    <string name="tvc203">C203\nWeb Appln Development\nJessica Sin</string>
+    <string name="tvc203">C203\nWeb Appln Development\nFacilitator:Jessica Sin</string>
     <string name="btnc203">View Info></string>
-    <string name="tvc206">C206\nSoftware Dev Process\nToh Kee Heng</string>
+    <string name="tvc206">C206\nSoftware Dev Process\nFacilitator:Toh Kee Heng</string>
     <string name="btnc206">View Info></string>
-    <string name="tvc235">C235\nIT Security and Management\nHo Chee Wai</string>
+    <string name="tvc235">C235\nIT Security and Management\nFacilitator:Ho Chee Wai</string>
     <string name="btnc235">View Info></string>
     <string name="btnc218">View Info></string>
-    <string name="tvC218">C218\nUI/UX Design for Apps\nJulia Lee</string>
+    <string name="tvC218">C218\nUI/UX Design for Apps\nFacilitator:Julia Lee</string>
     <string name="btnc346">View Info></string>
-    <string name="tvC346">C346\nMobile App Development\nAndy Tao</string>
+    <string name="tvC346">C346\nMobile App Development\nFacilitator:Andy Tao</string>
     <string name="back">BACK</string>
 </resources>
