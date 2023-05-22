@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/screenshot_2023_05_02_185534"
+    android:orientation="vertical"
+    tools:context=".ModuleDetailActivity">
+
+
+    <TextView
+        android:id="@+id/module"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#A4B473BF"
+        android:padding="16dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHighlight="#D99AFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#BEFE73B4"
+        android:fontFamily="@font/lilita_one"
+        android:padding="16dp"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#D99AFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/backbtn"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="@string/back"
+        android:textColorLink="#E91E63"
+        android:textSize="10dp" />
+</LinearLayout>

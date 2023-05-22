@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:background ="@drawable/woob2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:text="Choose your module!"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFFFFF" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="185dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#F89FAD"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvC203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/lilita_one"
+                android:text="@string/tvc203"
+                android:textAlignment="center"
+                android:textColor="#FF595353" />
+
+            <Button
+                android:id="@+id/btnC203"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/lilita_one"
+                android:text="@string/btnc203"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#F8D5CC"
+            android:orientation="vertical"
+            android:textAlignment="gravity">
+
+            <TextView
+                android:id="@+id/tvC206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/lilita_one"
+                android:text="@string/tvc206"
+                android:textAlignment="center"
+                android:textColor="#595353" />
+
+            <Button
+                android:id="@+id/btnC206"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/lilita_one"
+                android:text="@string/btnc206"
+                android:textSize="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="185dp"
+            android:layout_height="120dp"
+            android:background="#FFEBEE"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvC218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/lilita_one"
+                android:text="@string/tvC218"
+                android:textAlignment="center"
+                android:textColor="#FF595353" />
+
+            <Button
+                android:id="@+id/btnC218"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/lilita_one"
+                android:text="@string/btnc218"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:background="#E6F0F8"
+            android:orientation="vertical"
+            android:textAlignment="gravity">
+
+            <TextView
+                android:id="@+id/tvC235"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/lilita_one"
+                android:text="@string/tvc235"
+                android:textAlignment="center"
+                android:textColor="#595353" />
+
+            <Button
+                android:id="@+id/btnC235"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/lilita_one"
+                android:text="@string/btnc235"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="185dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="5dp"
+            android:background="#E0C0FD"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvC346"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/lilita_one"
+                android:text="@string/tvC346"
+                android:textAlignment="center"
+                android:textColor="#FF595353" />
+
+            <Button
+                android:id="@+id/btnC346"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/lilita_one"
+                android:text="@string/btnc346"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
