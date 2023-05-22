@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">My Modules</string>
+    <string name="choosemod">Choose Your \n Modules!</string>
     <string name="tvc203">C203\nWeb Appln Development\nFacilitator:Jessica Sin</string>
     <string name="btnc203">View Info></string>
     <string name="tvc206">C206\nSoftware Dev Process\nFacilitator:Toh Kee Heng</string>
